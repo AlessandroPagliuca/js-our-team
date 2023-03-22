@@ -72,7 +72,7 @@ for(let key = 0; key < team.length; key++){
     const mateId = team[key];
     const tpl = `
     <div class="col-12 col-sm-6 col-md-4 d-flex justify-content-center">
-        <div class="card p-3 mb-3" style="width: 16rem;">
+        <div class="card p-3 mb-4" style="width: 16rem;">
             <img src="./img/${mateId.image}" class="card-img-top" alt="${mateId.firstName} ${mateId.lastName} ${mateId.role}">
             <div class="card-body text-center">
                 <h5 class="card-title"> ${mateId.firstName} ${mateId.lastName} </h5>
